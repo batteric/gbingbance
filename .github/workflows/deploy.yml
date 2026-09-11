@@ -28,7 +28,7 @@ jobs:
 
       - run: npm run build
         env:
-          VITE_API_BASE_URL: https://TON-DOMAINE.infinityfreeapp.com/api/v1
+          VITE_API_BASE_URL: https://gbingbanceapp.kesug.com/api/v1
 
       - uses: actions/upload-pages-artifact@v3
         with:
